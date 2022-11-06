@@ -1,5 +1,7 @@
 **Mercik** Grubu 
 
+#Sprint - 1
+
 | Kişiler  | Araştırdığı Madde ve Çözüm Önerisi  | Grup içi puan |
 | :-----: | :---: | :---: |
 | 170541052 Muhammed Talha Baysal    | Tarayıcı Sekmelerinde Gezinerek Oltalama(Tabnabbing) | 82 |
@@ -15,10 +17,3 @@
 | 195541305 Zafer Koç  | [Possible] Backup File Disclosure(Yedek Dosya İfşası), Internal Server Error (İç Sunucu Hatası) | 100 |
 | 190541087 Seydi Sarıtaş   | Missing X-Frame-Options Header (Eksik X-Frame-Options Başlığı) | 100 |
 | 170541061-Tahir Bayraktar  | [Possible] Cross-site Request Forgery (Siteler Arası İstek Sahteciliği) | 85 |
-
-
-
-
-
-
-## Deploy on Vercel
