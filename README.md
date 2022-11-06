@@ -1,8 +1,15 @@
-**Mercik** Grubu 
+### Mercik Grubu 
 
 ## Sprint - 1
+- Her Sprint 2 haftadan oluşur
+- Story Pointler Fibonacci sayılarından oluşur(1,3,5,8,13,21)
+- Spike Maddelerinin story point'i 5'dir
+- POC Maddelerinin story pointleri işe göre değişmektedir.
+- Her tablo bir sprint'i ifade eder.
 
-| Kişiler  | Araştırdığı Madde ve Çözüm Önerisi  | Grup içi puan |
+
+
+| Assigned To   | User Story   | Story Point |
 | :-----: | :---: | :---: |
 | 170541052 Muhammed Talha Baysal    | Tarayıcı Sekmelerinde Gezinerek Oltalama(Tabnabbing) | 82 |
 | 170541058 Uğur Umur Zelcek   | Güncel Olmayan Sürüm  (IIS), (jQuery) Güncel Olmayan Sürüm | 84 |
