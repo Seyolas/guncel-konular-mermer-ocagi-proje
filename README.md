@@ -8,6 +8,7 @@
 | Kişi  | Alanı   |
 | :-----: | :---: | 
 | 190541087 Seydi Sarıtaş   | Front End | 
+
 #
 
 ## Sprint - 1
