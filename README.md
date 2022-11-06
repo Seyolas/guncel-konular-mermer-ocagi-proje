@@ -13,9 +13,10 @@
 
 ## Sprint - 1
 
-| Assigned to  | User Story  | Story Point |
+| Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| 170541052 Muhammed Talha Baysal    | - Tarayıcı Sekmelerinde Gezinerek Oltalama(Tabnabbing) | 82 |
+| 170541052 Muhammed Talha Baysal    | - Tarayıcı Sekmelerinde Gezinerek Oltalama(Tabnabbing)
+- Tarayıcı Sekmelerinde Gezinerek Oltalama(Tabnabbing)| 82 |
 | 170541058 Uğur Umur Zelcek   | Güncel Olmayan Sürüm  (IIS), (jQuery) Güncel Olmayan Sürüm | 84 |
 | 170542019 Hasan Cakmakci   | Stack Trace Disclosure-Yığın İzleme Açıklaması (ASP.NET) | 83 |
 | 175541008 Bekir Öndeş    | Breach saldırısı tespit edildi, htst politikası etkin değil | **80** |
