@@ -1,6 +1,6 @@
 **Mercik** Grubu 
 
-#Sprint - 1
+## Sprint - 1
 
 | Kişiler  | Araştırdığı Madde ve Çözüm Önerisi  | Grup içi puan |
 | :-----: | :---: | :---: |
