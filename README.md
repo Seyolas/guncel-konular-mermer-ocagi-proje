@@ -1,3 +1,4 @@
+**Mercik** Grubu 
 
 | Kişiler  | Araştırdığı Madde ve Çözüm Önerisi  | Grup içi puan |
 | :-----: | :---: | :---: |
