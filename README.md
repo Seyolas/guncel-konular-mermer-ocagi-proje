@@ -8,6 +8,7 @@
 | Kişi  | Alanı   |
 | :-----: | :---: | 
 | 190541087 Seydi Sarıtaş   | Front End | 
+#
 
 ## Sprint - 1
 
@@ -26,8 +27,7 @@
 | 195541305 Zafer Koç  | [Possible] Backup File Disclosure(Yedek Dosya İfşası), Internal Server Error (İç Sunucu Hatası) | 100 |
 | 190541087 Seydi Sarıtaş   | Missing X-Frame-Options Header (Eksik X-Frame-Options Başlığı) | 100 |
 | 170541061-Tahir Bayraktar  | [Possible] Cross-site Request Forgery (Siteler Arası İstek Sahteciliği) | 85 |
-
-======
+#
 
 ## Sprint - 2
 
@@ -46,8 +46,7 @@
 | 195541305 Zafer Koç  | [Possible] Backup File Disclosure(Yedek Dosya İfşası), Internal Server Error (İç Sunucu Hatası) | 100 |
 | 190541087 Seydi Sarıtaş   | Missing X-Frame-Options Header (Eksik X-Frame-Options Başlığı) | 100 |
 | 170541061-Tahir Bayraktar  | [Possible] Cross-site Request Forgery (Siteler Arası İstek Sahteciliği) | 85 |
-
-======
+#
 
 ## Sprint - 3
 
@@ -66,5 +65,5 @@
 | 195541305 Zafer Koç  | [Possible] Backup File Disclosure(Yedek Dosya İfşası), Internal Server Error (İç Sunucu Hatası) | 100 |
 | 190541087 Seydi Sarıtaş   | Missing X-Frame-Options Header (Eksik X-Frame-Options Başlığı) | 100 |
 | 170541061-Tahir Bayraktar  | [Possible] Cross-site Request Forgery (Siteler Arası İstek Sahteciliği) | 85 |
-
+#
 
