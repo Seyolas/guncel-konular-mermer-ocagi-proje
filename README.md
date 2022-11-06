@@ -26,7 +26,7 @@
 | 170542018 Mustafa Ali Kağan Küçük  | Weak Ciphers Enabled (Zayıf Şifreler Etkin), ViewState is not Encrypted (ViewState Şifreli değil) | 83 |
 | 195541303 Mertcan Taskiran  | Active Mixed Content over HTTPS (HTTPS Üzerinden Etkin Karmaşık İçerik) | 86 |
 | 195541305 Zafer Koç  | [Possible] Backup File Disclosure(Yedek Dosya İfşası), Internal Server Error (İç Sunucu Hatası) | 100 |
-| 190541087 Seydi Sarıtaş   | Kullanılacak Teknolojilerin Araştırılması [SPIKE] | 5 |
+| 190541087 Seydi Sarıtaş   | Missing X-Frame-Options Header (Eksik X-Frame-Options Başlığı) | 5 |
 | 170541061-Tahir Bayraktar  | [Possible] Cross-site Request Forgery (Siteler Arası İstek Sahteciliği) | 85 |
 
 ## Sprint - 2
