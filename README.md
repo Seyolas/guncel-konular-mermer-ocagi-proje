@@ -16,10 +16,7 @@
 | 170541058 Uğur Umur Zelcek   | Güncel Olmayan Sürüm  (IIS), (jQuery) Güncel Olmayan Sürüm | 84 |
 | 170542019 Hasan Cakmakci   | Stack Trace Disclosure-Yığın İzleme Açıklaması (ASP.NET) | 83 |
 | 175541008 Bekir Öndeş    | Breach saldırısı tespit edildi, htst politikası etkin değil | **80** |
-| 195541606 ANAS ALJERF | Çerez Güvenli Olarak İşaretlenmedi | 86 |
-| 195541608  Malik Sarrafoğlu   | Content-Type Header(Eksik İçerik Türü Başlığı)  | 85 |
 | 210541101 Aslan Koyuncu     | Version Disclosure(ASP.NET), Insecure Transportation Security Protocol Supported (TLS 1.0) | 85 |
-| 205541608 Hassan Sanusibayero    | Insecure Frame (External) | 85|
 | 170542018 Mustafa Ali Kağan Küçük  | Weak Ciphers Enabled (Zayıf Şifreler Etkin), ViewState is not Encrypted (ViewState Şifreli değil) | 83 |
 | 195541303 Mertcan Taskiran  | Active Mixed Content over HTTPS (HTTPS Üzerinden Etkin Karmaşık İçerik) | 86 |
 | 195541305 Zafer Koç  | [Possible] Backup File Disclosure(Yedek Dosya İfşası), Internal Server Error (İç Sunucu Hatası) | 100 |
