@@ -5,6 +5,10 @@
 - POC Maddelerinin story pointleri işe göre değişmektedir.
 - Her tablo bir sprint'i ifade eder.
 
+| Kişi  | Alanı   | Story Point |
+| :-----: | :---: | :---: |
+| 190541087 Seydi Sarıtaş   | Front End | 
+
 ## Sprint - 1
 
 
