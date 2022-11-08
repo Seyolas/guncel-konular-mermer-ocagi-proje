@@ -1,3 +1,4 @@
+
 ### Mercik Grubu 
 - Her Sprint 2 haftadan oluşur
 - Story Pointler Fibonacci sayılarından oluşur(1,3,5,8,13,21)
@@ -17,7 +18,7 @@
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
 | seydi sarıtaş   | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][13Sp], 2. Next.js vs React.js[POC][13Sp]| 26sp |
-| batuhan şen | MVC[POC][13Sp] | 13sp
+| batuhan şen | MVC / Auth [POC][13Sp] | 13sp
 ## Sprint - 2
 
 | Assigned to  | User Story  | Story Point |
