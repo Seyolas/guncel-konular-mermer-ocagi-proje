@@ -10,6 +10,8 @@
 | :-----: | :---: | 
 | 190541087 Seydi Sarıtaş   | Front End dev. - Scrum Master | 
 | 170541050 Batuhan Şen | Back End dev.|
+| 180541072 Abdurrahman Pülat | Test Engineer|
+
 
 #
 
