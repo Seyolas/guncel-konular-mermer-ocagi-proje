@@ -5,9 +5,10 @@
 - POC Maddelerinin story pointleri işe göre değişmektedir.
 - Her tablo bir sprint'i ifade eder.
 
-| Kişi  | Alanı   |
+| Kişi  | Görevi |
 | :-----: | :---: | 
-| 190541087 Seydi Sarıtaş   | Front End | 
+| 190541087 Seydi Sarıtaş   | Front End dev. - Scrum Master | 
+| 170541050 Batuhan Şen | Back End dev.|
 
 #
 
