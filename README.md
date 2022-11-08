@@ -16,8 +16,8 @@
 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| 190541087 seydi sarıtaş   | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE]- 13Sp, 2. Next.js vs React.js[POC] - 13Sp| 26 |
-
+| seydi sarıtaş   | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][13Sp], 2. Next.js vs React.js[POC][13Sp]| 26sp |
+| batuhan şen | MVC[POC][13Sp] | 13sp
 ## Sprint - 2
 
 | Assigned to  | User Story  | Story Point |
