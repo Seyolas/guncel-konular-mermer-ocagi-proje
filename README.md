@@ -52,5 +52,5 @@
 | ali imran atabey | veri seti düzenleme[SPIKE][5SP] | 5sp |
 | batuhan şen | MVC / Auth Kurulumu [13Sp] | 13sp |
 | abdullah yıldız | selenium kurulumu [13sp] | 13sp |
-| salihcan özdemir |Tasarım araştırmaları [SPIKE|[13SP] |  13sp
+| salihcan özdemir |Tasarım araştırmaları [SPIKE] [13SP] | 13sp |
 
