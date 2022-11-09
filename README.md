@@ -1,6 +1,6 @@
 
 ### Mercik Grubu 
-- Her Sprint 3 haftadan oluşur
+- Her Sprint 2 haftadan oluşur
 - Story Pointler Fibonacci sayılarından oluşur(1,3,5,8,13,21)
 - Spike Maddelerinin story point'i 5'dir
 - POC Maddelerinin story pointleri işe göre değişmektedir.
