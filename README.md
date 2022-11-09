@@ -25,13 +25,13 @@
 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| seydi sarıtaş   | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][13Sp], 2. Next.js vs React.js[POC][13Sp]| 26sp |
+| seydi sarıtaş   | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][5sp], 2. Next.js vs React.js[POC][13sp]| 26sp |
 | batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
-| batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
-| batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
-| batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
-| batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
-| batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
+| bünyamin kiremit | Veri seti araştırmaları [SPIKE][5Sp] | 5sp |
+| mehmetcan tozlu | sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 13sp |
+| ömer faruk konca | renk sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 13sp |
+| Abdurrahman Pülat | manuel, alfa,beta ve otomasyon testi için kullanılacak araçların araştırılması[SPIKE][5sp] | 5sp |
+| hasan demir | MVC / Auth [POC][13Sp] | 13sp |
 | batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
 | batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
 
