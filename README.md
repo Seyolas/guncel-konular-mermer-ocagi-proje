@@ -42,7 +42,7 @@
 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| seydi sarıtaş   | Next.js Kurulumu[13sp] | 13sp |
+| seydi sarıtaş   | Next.js Kurulumu[13sp], Auth0[POC][13sp] | 26sp |
 | batuhan şen | MVC / Auth kurulumu [13Sp] | 13sp |
 | bünyamin kiremit | Veri seti araştırmaları [SPIKE][5Sp] | 5sp |
 | mehmetcan tozlu | sınıflandırma modellerinin oluştulması[13sp] | 13sp |
