@@ -9,7 +9,6 @@
 
 | Kişi  | Görevi |
 | :-----: | :---: | 
-
 | 170541050 Batuhan Şen | Back End dev.|
 | 180541072 Abdurrahman Pülat | Test Engineer|
 | 170541028 Abdullah Yıldız | QA Engineer |
