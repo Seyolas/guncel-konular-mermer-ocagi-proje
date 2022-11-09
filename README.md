@@ -25,50 +25,18 @@
 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| seydi sarıtaş   | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][5sp], 2. Next.js vs React.js[POC][13sp]| 26sp |
+| seydi sarıtaş   | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][5sp], 2. Next.js vs React.js[POC][13sp]| 18sp |
 | batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
 | bünyamin kiremit | Veri seti araştırmaları [SPIKE][5Sp] | 5sp |
-| mehmetcan tozlu | sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 13sp |
-| ömer faruk konca | renk sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 13sp |
-| Abdurrahman Pülat | manuel, alfa,beta ve otomasyon testi için kullanılacak araçların araştırılması[SPIKE][5sp] | 5sp |
-| hasan demir | MVC / Auth [POC][13Sp] | 13sp |
+| mehmetcan tozlu | sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 5sp |
+| ömer faruk konca | renk sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 5sp |
+| Abdurrahman Pülat | manuel, alfa,beta testi için kullanılacak araçların araştırılması[SPIKE][5sp] | 5sp |
+| hasan demir | damar sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 5sp |
+| ali imran atabey | veri seti düzenleme[SPIKE][5SP] | 5sp |
 | batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
-| batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
+| abdullah yıldız | kullanılacak test otomasyonu için araştırma[SPIKE][5sp] | 5sp |
+| salihcan özdemir | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][5sp], 2. Vue.js vs Svelte.js[POC][13sp]
 
 ## Sprint - 2
-
-| Assigned to  | User Story  | Story Point |
-| :-----: | :---: | :---: |
-| 170541052 Muhammed Talha Baysal    | Tarayıcı Sekmelerinde Gezinerek Oltalama(Tabnabbing) | 82 |
-| 170541058 Uğur Umur Zelcek   | Güncel Olmayan Sürüm  (IIS), (jQuery) Güncel Olmayan Sürüm | 84 |
-| 170542019 Hasan Cakmakci   | Stack Trace Disclosure-Yığın İzleme Açıklaması (ASP.NET) | 83 |
-| 175541008 Bekir Öndeş    | Breach saldırısı tespit edildi, htst politikası etkin değil | **80** |
-| 195541606 ANAS ALJERF | Çerez Güvenli Olarak İşaretlenmedi | 86 |
-| 195541608  Malik Sarrafoğlu   | Content-Type Header(Eksik İçerik Türü Başlığı)  | 85 |
-| 210541101 Aslan Koyuncu     | Version Disclosure(ASP.NET), Insecure Transportation Security Protocol Supported (TLS 1.0) | 85 |
-| 205541608 Hassan Sanusibayero    | Insecure Frame (External) | 85|
-| 170542018 Mustafa Ali Kağan Küçük  | Weak Ciphers Enabled (Zayıf Şifreler Etkin), ViewState is not Encrypted (ViewState Şifreli değil) | 83 |
-| 195541303 Mertcan Taskiran  | Active Mixed Content over HTTPS (HTTPS Üzerinden Etkin Karmaşık İçerik) | 86 |
-| 195541305 Zafer Koç  | [Possible] Backup File Disclosure(Yedek Dosya İfşası), Internal Server Error (İç Sunucu Hatası) | 100 |
-| 190541087 Seydi Sarıtaş   | Missing X-Frame-Options Header (Eksik X-Frame-Options Başlığı) | 100 |
-| 170541061-Tahir Bayraktar  | [Possible] Cross-site Request Forgery (Siteler Arası İstek Sahteciliği) | 85 |
-
-## Sprint - 3
-
-| Assigned to  | User Story  | Story Point |
-| :-----: | :---: | :---: |
-| 170541052 Muhammed Talha Baysal    | Tarayıcı Sekmelerinde Gezinerek Oltalama(Tabnabbing) | 82 |
-| 170541058 Uğur Umur Zelcek   | Güncel Olmayan Sürüm  (IIS), (jQuery) Güncel Olmayan Sürüm | 84 |
-| 170542019 Hasan Cakmakci   | Stack Trace Disclosure-Yığın İzleme Açıklaması (ASP.NET) | 83 |
-| 175541008 Bekir Öndeş    | Breach saldırısı tespit edildi, htst politikası etkin değil | **80** |
-| 195541606 ANAS ALJERF | Çerez Güvenli Olarak İşaretlenmedi | 86 |
-| 195541608  Malik Sarrafoğlu   | Content-Type Header(Eksik İçerik Türü Başlığı)  | 85 |
-| 210541101 Aslan Koyuncu     | Version Disclosure(ASP.NET), Insecure Transportation Security Protocol Supported (TLS 1.0) | 85 |
-| 205541608 Hassan Sanusibayero    | Insecure Frame (External) | 85|
-| 170542018 Mustafa Ali Kağan Küçük  | Weak Ciphers Enabled (Zayıf Şifreler Etkin), ViewState is not Encrypted (ViewState Şifreli değil) | 83 |
-| 195541303 Mertcan Taskiran  | Active Mixed Content over HTTPS (HTTPS Üzerinden Etkin Karmaşık İçerik) | 86 |
-| 195541305 Zafer Koç  | [Possible] Backup File Disclosure(Yedek Dosya İfşası), Internal Server Error (İç Sunucu Hatası) | 100 |
-| 190541087 Seydi Sarıtaş   | Missing X-Frame-Options Header (Eksik X-Frame-Options Başlığı) | 100 |
-| 170541061-Tahir Bayraktar  | [Possible] Cross-site Request Forgery (Siteler Arası İstek Sahteciliği) | 85 |
 
 
