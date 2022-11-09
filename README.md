@@ -35,7 +35,7 @@
 | ali imran atabey | veri seti düzenleme[SPIKE][5SP] | 5sp |
 | batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
 | abdullah yıldız | kullanılacak test otomasyonu için araştırma[SPIKE][5sp] | 5sp |
-| salihcan özdemir | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][5sp], 2. Vue.js vs Svelte.js[POC][13sp]
+| salihcan özdemir | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][5sp], 2. Vue.js vs Svelte.js[POC][18sp]
 
 ## Sprint - 2
 
