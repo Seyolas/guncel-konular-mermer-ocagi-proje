@@ -8,9 +8,17 @@
 
 | Kişi  | Görevi |
 | :-----: | :---: | 
+
 | 190541087 Seydi Sarıtaş   | Front End dev. - Scrum Master | 
 | 170541050 Batuhan Şen | Back End dev.|
-
+| 180541062 Salihcan Özdemir   | Front End dev. | 
+| 180541068 Abdullah Samet Bayraktar   | Back End dev.  | 
+| 180542012 Bünyamin Kiremit   | Yapay zeka dev. | 
+| 180542010 Mehmetcan Tozlu   | Yapay zeka dev. | 
+| 190541014 Hasan Demir  | Yapay zeka dev. | 
+| 180541072 Abdurrahman Pülat  | Test dev. | 
+| 190541014 Ömer Faruk Konca  | Yapay zeka dev.| 
+| 190541004 Ali İmran Atabey  | Yapay zeka dev.| 
 #
 
 ## Sprint - 1
