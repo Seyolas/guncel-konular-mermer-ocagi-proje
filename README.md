@@ -10,6 +10,7 @@
 | :-----: | :---: | 
 | 190541087 Seydi Sarıtaş   | Front End dev. - Scrum Master | 
 | 170541050 Batuhan Şen | Back End dev.|
+| 170541028 Abdullah Yıldız | QA Engineer |
 | 180541062 Salihcan Özdemir   | Front End dev. | 
 | 180541068 Abdullah Samet Bayraktar   | Back End dev.  | 
 | 180542012 Bünyamin Kiremit   | Yapay zeka dev. | 
