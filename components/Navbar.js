@@ -10,16 +10,8 @@ import React from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import { useRouter } from "next/router"
 
-
-
-
-
-
-
 const Navbar = () => {
     const router = useRouter();
-
-
 
     const { user, error, isLoading } = useGlobalContext();
 
@@ -28,8 +20,8 @@ const Navbar = () => {
         <nav>
 
 
-            {user ? <a href="/api/auth/logout"><FiLogOut />Logout</a> : <a href="/api/auth/login"><AiOutlineUser />Login</a>}
-            {user && <p>Welcome {user.name}!</p>}
+            {user ? <a href="/api/auth/logout"><FiLogOut />Çıkış Yap</a> : <a href="/api/auth/login"><AiOutlineUser />Giriş Yap</a>}
+            {user && <p>Hoşgeldin {user.name}!</p>}
 
 
             {/* {user && <p className='welcome-p'>Welcome {user.name}!</p>}
