@@ -5,7 +5,6 @@
 - Spike Maddelerinin story point'i 5'dir
 - POC Maddelerinin story pointleri işe göre değişmektedir.
 - Her tablo bir sprint'i ifade eder.
-- Herkes product owner'dır
 
 | Kişi  | Görevi |
 | :-----: | :---: | 
