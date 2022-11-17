@@ -63,7 +63,7 @@
 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| seydi sarıtaş   | Front end için free hosting araştırması- fe [SPIKE] auth0 next.js implementasyonu[13SP]| 5sp |
+| seydi sarıtaş   | Front end için free hosting araştırması- fe [SPIKE][5sp] auth0 next.js implementasyonu[13SP]| 18sp |
 | batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
 | bünyamin kiremit | Veri seti araştırmaları [SPIKE][5Sp] | 5sp |
 | mehmetcan tozlu | svm ile modelin tekrar kontrol edilmesi [13sp] | 13sp |
