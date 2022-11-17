@@ -50,12 +50,12 @@ Herkesin iyi olduğu alanları belirledik ve herkese ona göre iş dağılımı 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
 | seydi sarıtaş   | Next.js Kurulumu[13sp], Auth0[POC][13sp], | 26sp |
-| bünyamin kiremit | - | 5sp |
+| bünyamin kiremit | - |  |
 | mehmetcan tozlu | sınıflandırma modellerinin oluştulması[13sp] | 13sp |
 | ömer faruk konca | renk sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
 | Abdurrahman Pülat | - | 5sp |
 | hasan demir | damar sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
-| ali imran atabey | -| 5sp |
+| ali imran atabey | -|  |
 | batuhan şen | MVC / Auth Kurulumu [13Sp] | 13sp |
 | abdullah yıldız | selenium kurulumu [13sp] | 13sp |
 | salihcan özdemir |Tasarım araştırmaları [SPIKE] [13SP] | 13sp |
@@ -79,15 +79,15 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
 | seydi sarıtaş   | auth0 next.js implementasyonu[13SP] Next.js uygulamasını yayına almak [13sp] | 26sp |
-| bünyamin kiremit | - | 5sp |
+| bünyamin kiremit | - |  |
 | mehmetcan tozlu | svm ile modelin tekrar yazılması [13sp] | 13sp |
-| ömer faruk konca | - | 13sp |
-| Abdurrahman Pülat | - | 5sp |
-| hasan demir | - | 13sp |
-| ali imran atabey | -| 5sp |
+| ömer faruk konca | - |  |
+| Abdurrahman Pülat | - |  |
+| hasan demir | - |  |
+| ali imran atabey | -| |
 | batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
 | abdullah yıldız | Selenium Test Otomasyonu yazılarak Web sayfası test edildi | 13sp |
-| salihcan özdemir | - | 13sp |
+| salihcan özdemir | - |  |
 | Aslan Koyuncu | DigitalOgean docker kurulumu [13sp] | 13sp |
 | Abdullah Samet bayraktar | Flask-Web api yazılması [13Sp] | 13sp |
 
