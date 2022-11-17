@@ -28,7 +28,7 @@
 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| seydi sarıtaş   | Front end için kullanılacak güncel javascript frameworklerinin araştırılması[SPIKE][5sp], 2. Next.js vs React.js[POC][13sp]| 18sp |
+| seydi sarıtaş   | Front end için kullanılacak güncel javascript frameworklerinin araştırılması[SPIKE][5sp], Next.js vs React.js[POC][13sp]| 18sp |
 | batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
 | bünyamin kiremit | Veri seti araştırmaları [SPIKE][5Sp] | 5sp |
 | mehmetcan tozlu | sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 5sp |
