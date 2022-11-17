@@ -64,7 +64,7 @@
 | :-----: | :---: | :---: |
 | seydi sarıtaş   | Front end için free hosting araştırması- fe [SPIKE][5sp] auth0 next.js implementasyonu[13SP]| 18sp |
 | bünyamin kiremit | - | 5sp |
-| mehmetcan tozlu | svm ile modelin tekrar kontrol edilmesi [13sp] | 13sp |
+| mehmetcan tozlu | svm ile modelin tekrar yazılması [13sp] | 13sp |
 | ömer faruk konca | - | 13sp |
 | Abdurrahman Pülat | - | 5sp |
 | hasan demir | - | 13sp |
