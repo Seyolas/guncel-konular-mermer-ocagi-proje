@@ -96,4 +96,3 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - İkinci özelliğimizi eğittik. Desen özelliklerine göre sınıflandırma işlemlerini tamamladık
 - Flask framework'ünü öğrendik 
 - Flask tarafında image'i karşılayacak api'mizi yazdık
-- 
