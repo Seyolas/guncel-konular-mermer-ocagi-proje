@@ -2,7 +2,7 @@
 ### Mercik Grubu 
 - https://guncel.vercel.app/
 - Her Sprint 2 haftadan oluşur
-- Story Pointler Fibonacci sayılarından oluşur(1,3,5,8,13,21)
+- Story Pointler Fibonacci sayılarından oluşur(1,3,5,8,13,21) Yapılacak işin karmaşıklığını ifade eder.
 - Spike Maddelerinin story point'i 5'dir
 - POC Maddelerinin story pointleri işe göre değişmektedir.
 - Her tablo bir sprint'i ifade eder.
