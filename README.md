@@ -1,5 +1,6 @@
 
 ### Mercik Grubu 
+- https://guncel.vercel.app/
 - Her Sprint 2 haftadan oluşur
 - Story Pointler Fibonacci sayılarından oluşur(1,3,5,8,13,21)
 - Spike Maddelerinin story point'i 5'dir
@@ -73,5 +74,5 @@
 | abdullah yıldız | - | 13sp |
 | salihcan özdemir | - | 13sp |
 | Aslan Koyuncu | DigitalOgean docker kurulumu [13sp] | 13sp |
-| Abdullah Samet bayraktar | Flask-Web api [13Sp] | 13sp |
+| Abdullah Samet bayraktar | Flask-Web api yazılması [13Sp] | 13sp |
 
