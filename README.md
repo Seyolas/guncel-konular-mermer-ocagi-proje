@@ -45,7 +45,7 @@
 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| seydi sarıtaş   | Next.js Kurulumu[13sp], Auth0[POC][13sp] | 26sp |
+| seydi sarıtaş   | Next.js Kurulumu[13sp], Auth0[POC][13sp], | 26sp |
 | bünyamin kiremit | - | 5sp |
 | mehmetcan tozlu | sınıflandırma modellerinin oluştulması[13sp] | 13sp |
 | ömer faruk konca | renk sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
@@ -62,7 +62,7 @@
 
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
-| seydi sarıtaş   | Front end için free hosting araştırması- fe [SPIKE][5sp] auth0 next.js implementasyonu[13SP]| 18sp |
+| seydi sarıtaş   | auth0 next.js implementasyonu[13SP] Next.js uygulamasını yayına almak [13sp] | 26sp |
 | bünyamin kiremit | - | 5sp |
 | mehmetcan tozlu | svm ile modelin tekrar yazılması [13sp] | 13sp |
 | ömer faruk konca | - | 13sp |
