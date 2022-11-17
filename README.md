@@ -53,7 +53,7 @@ Herkesin iyi olduğu alanları belirledik ve herkese ona göre iş dağılımı 
 | bünyamin kiremit | - |  |
 | mehmetcan tozlu | sınıflandırma modellerinin oluştulması[13sp] | 13sp |
 | ömer faruk konca | renk sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
-| Abdurrahman Pülat | - | 5sp |
+| Abdurrahman Pülat | - | |
 | hasan demir | damar sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
 | ali imran atabey | -|  |
 | batuhan şen | MVC / Auth Kurulumu [13Sp] | 13sp |
