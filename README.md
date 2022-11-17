@@ -71,7 +71,8 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - authentication geliştirmeleri için sıfırdan bir yapıp kurmak yerine Auth0 modülünü kullanalım
 - Şifreleme geliştirmelerini yapmayalım.(Zamanımız yok vizeler geliyor)
 - Api'leri tamamını flask'da yazalım
-- Derin öğrenme uygulamasında sınıflandırma modellerini oluşturalım. Her sprint yeni bir özelliği mevcut modele entegre edelim. Bu sprint sonunda mermerin damar,çatlaklı,damarlı,kırık gibi özelliklerini çıkartalım
+- Derin öğrenme uygulamasında sınıflandırma modellerini oluşturalım. Her sprint yeni bir özelliği mevcut modele entegre edelim. Bu sprint sonunda mermerin çatlak,damarlı,kırık gibi özelliklerini çıkartalım şeklinde kararlar aldık. 
+- İlk özelliğimizi eğittik. Renk Sınıflandırma işlemlerini tamamladık.
 
 ## Sprint - 3
 
@@ -89,4 +90,8 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | salihcan özdemir | - | 13sp |
 | Aslan Koyuncu | DigitalOgean docker kurulumu [13sp] | 13sp |
 | Abdullah Samet bayraktar | Flask-Web api yazılması [13Sp] | 13sp |
+
+### Sprint 3 çıktıları : 
+- Sprint 3 sonucunda authentication işlemleri için kullandığımız auth0 modülünü uygulamamıza entegre ettik ve yayına aldık.
+- 
 
