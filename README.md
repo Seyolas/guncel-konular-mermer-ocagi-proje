@@ -42,6 +42,9 @@
 | Abdullah Samet bayraktar |  MVC / Auth [POC][13Sp] | 13sp |
 | Aslan Koyuncu | Veritabanı Karşılaştırması(MongoDB, PostgreSQL)[13sp] | 13sp
 
+### Sprint 1 çıktıları: 
+Herkesin iyi olduğu alanları belirledik ve herkese ona göre iş dağılımı yaptık. 
+
 ## Sprint - 2
 
 | Assigned to  | User Story  | Toplam SP |
@@ -58,6 +61,17 @@
 | salihcan özdemir |Tasarım araştırmaları [SPIKE] [13SP] | 13sp |
 | Aslan Koyuncu | DigitalOgean vs heroku araştırması [13sp] | 13sp |
 | Abdullah Samet bayraktar | MVC / Auth Kurulumu [13Sp] | 13sp |
+
+### Sprint 2 çıktıları: 
+Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre dağıtırsak gün sonunda projeyi entegre edip ayağa kaldırmamız mümkün olmayacak. Örneğin Sprint1 sonucunda kafamızdaki düşünce şu şekildeydi
+- authentication geliştirmelerini .net ile yapalım 
+- şifreleme (blokzincir) geliştirmelerini .net tarafında yapalım
+- image'i karşılayacak api'yi flask ile yazalım
+### Sprint 2 sonucunda ise:
+- authentication geliştirmeleri için sıfırdan bir yapıp kurmak yerine Auth0 modülünü kullanalım
+- Şifreleme geliştirmelerini yapmayalım.(Zamanımız yok vizeler geliyor)
+- Api'leri tamamını flask'da yazalım
+- Derin öğrenme uygulamasında sınıflandırma modellerini oluşturalım. Her sprint yeni bir özelliği mevcut modele entegre edelim. Bu sprint sonunda mermerin damar,çatlaklı,damarlı,kırık gibi özelliklerini çıkartalım
 
 ## Sprint - 3
 
