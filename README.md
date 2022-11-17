@@ -93,5 +93,4 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 
 ### Sprint 3 çıktıları : 
 - Sprint 3 sonucunda authentication işlemleri için kullandığımız auth0 modülünü uygulamamıza entegre ettik ve yayına aldık.
-- 
 
