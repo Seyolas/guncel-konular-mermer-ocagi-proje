@@ -46,12 +46,12 @@
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
 | seydi sarıtaş   | Next.js Kurulumu[13sp], Auth0[POC][13sp] | 26sp |
-| bünyamin kiremit | Veri seti araştırmaları [SPIKE][5Sp] | 5sp |
+| bünyamin kiremit | - | 5sp |
 | mehmetcan tozlu | sınıflandırma modellerinin oluştulması[13sp] | 13sp |
 | ömer faruk konca | renk sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
-| Abdurrahman Pülat | manuel, alfa,beta testi için kullanılacak araçların araştırılması[SPIKE][5sp] | 5sp |
+| Abdurrahman Pülat | - | 5sp |
 | hasan demir | damar sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
-| ali imran atabey | veri seti düzenleme[SPIKE][5SP] | 5sp |
+| ali imran atabey | -| 5sp |
 | batuhan şen | MVC / Auth Kurulumu [13Sp] | 13sp |
 | abdullah yıldız | selenium kurulumu [13sp] | 13sp |
 | salihcan özdemir |Tasarım araştırmaları [SPIKE] [13SP] | 13sp |
@@ -63,14 +63,15 @@
 | Assigned to  | User Story  | Toplam SP |
 | :-----: | :---: | :---: |
 | seydi sarıtaş   | Front end için free hosting araştırması- fe [SPIKE][5sp] auth0 next.js implementasyonu[13SP]| 18sp |
-| batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
-| bünyamin kiremit | Veri seti araştırmaları [SPIKE][5Sp] | 5sp |
+| bünyamin kiremit | - | 5sp |
 | mehmetcan tozlu | svm ile modelin tekrar kontrol edilmesi [13sp] | 13sp |
-| ömer faruk konca | renk sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
-| Abdurrahman Pülat | manuel, alfa,beta testi için kullanılacak araçların araştırılması[SPIKE][5sp] | 5sp |
-| hasan demir | damar sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
-| ali imran atabey | veri seti düzenleme[SPIKE][5SP] | 5sp |
-| abdullah yıldız | selenium kurulumu [13sp] | 13sp |
-| salihcan özdemir |Tasarım araştırmaları [SPIKE] [13SP] | 13sp |
+| ömer faruk konca | - | 13sp |
+| Abdurrahman Pülat | - | 5sp |
+| hasan demir | - | 13sp |
+| ali imran atabey | -| 5sp |
+| batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
+| abdullah yıldız | - | 13sp |
+| salihcan özdemir | - | 13sp |
+| Aslan Koyuncu | DigitalOgean docker kurulumu [13sp] | 13sp |
 | Abdullah Samet bayraktar | Flask-Web api [13Sp] | 13sp |
 
