@@ -86,7 +86,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - | 13sp |
 | ali imran atabey | -| 5sp |
 | batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
-| abdullah yıldız | - | 13sp |
+| abdullah yıldız | Selenium Test Otomasyonu yazılarak Web sayfası test edildi | 13sp |
 | salihcan özdemir | - | 13sp |
 | Aslan Koyuncu | DigitalOgean docker kurulumu [13sp] | 13sp |
 | Abdullah Samet bayraktar | Flask-Web api yazılması [13Sp] | 13sp |
