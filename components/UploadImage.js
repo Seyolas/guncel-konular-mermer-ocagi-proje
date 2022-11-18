@@ -18,7 +18,7 @@ const UploadImage = () => {
 
         try {
             const req = new XMLHttpRequest()
-            var generate_url = "http://137.184.189.251/api/process";
+            var generate_url = "http://137.184.189.251/api/process_v2";
 
 
 
