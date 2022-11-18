@@ -25,7 +25,7 @@ const UploadImage = () => {
             var bodyFormData = new FormData();
             bodyFormData.append("file", selectedFile);
 
-            axios(generate_url, {
+            axios("https://137.184.189.251/api/process_v2", {
                 method: 'POST',
                 mode: 'no-cors',
 
