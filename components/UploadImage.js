@@ -17,15 +17,15 @@ const UploadImage = () => {
         event.preventDefault()
 
         try {
-            // const req = new XMLHttpRequest()
-            // var generate_url = "http://137.184.189.251/api/process_v2";
+            const req = new XMLHttpRequest()
+            var generate_url = "https://137.184.189.251/api/process_v2";
 
 
 
             var bodyFormData = new FormData();
             bodyFormData.append("file", selectedFile);
 
-            axios("http://137.184.189.251/api/process_v2", {
+            axios(generate_url, {
                 method: 'POST',
                 mode: 'no-cors',
 
