@@ -15,19 +15,38 @@ const UploadImage = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault()
-        const formData = new FormData();
-        formData.append("selectedFile", selectedFile);
+
         try {
-            const response = await axios({
-                method: "post",
-                url: "/api/upload/file",
-                data: formData,
-                headers: { "Content-Type": "multipart/form-data" },
+            const req = new XMLHttpRequest()
+            var generate_url = "http://137.184.189.251/api/process";
+
+
+
+            var bodyFormData = new FormData();
+            bodyFormData.append("file", selectedFile);
+
+            axios(generate_url, {
+                method: 'POST',
+                mode: 'no-cors',
+
+                data: bodyFormData,
+                //withCredentials: true,
+                credentials: 'same-origin',
+            }).then(response => {
+
+                console.log(response)
+            }).catch(error => {
+                console.log(error)
+                alert("errorr")
             });
+
+
+
         } catch (error) {
             console.log(error)
             alert("errorr")
         }
+
     }
 
     const handleFileSelect = (event) => {
