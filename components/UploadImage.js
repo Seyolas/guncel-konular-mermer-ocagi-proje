@@ -33,8 +33,8 @@ const UploadImage = () => {
                 //withCredentials: true,
                 credentials: 'same-origin',
             }).then(response => {
-
-                console.log(response)
+                console.log(response.data.data.join())
+                alert(response.data.data.join())
             }).catch(error => {
                 console.log(error)
                 alert("errorr")
