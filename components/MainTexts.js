@@ -57,6 +57,11 @@ const MainTexts = () => {
                     color:black;
                     font-weight:600;
                 }
+                @media screen and (max-width:500px){
+                    .content{
+                        width:95%;
+                    }
+                }
             `}</style>
         </div>
     )
