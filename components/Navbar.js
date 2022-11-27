@@ -54,7 +54,7 @@ const Navbar = () => {
             .left-top-h2{
                 color:white;
             }
-            @media screen and (min-width:510px){
+            @media screen and (max-width:500px){
                 .main-flex{
                     flex-direction:column;
                     justify-content:center;
