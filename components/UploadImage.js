@@ -18,17 +18,15 @@ const UploadImage = () => {
 
         try {
             const req = new XMLHttpRequest()
-            var generate_url = "https://137.184.189.251/api/process_v2";
-
+            var generate_url = "http://localhost:5000/api/process_v2";
 
 
             var bodyFormData = new FormData();
             bodyFormData.append("file", selectedFile);
 
-            axios("https://137.184.189.251/api/process_v2", {
+            axios(generate_url, {
                 method: 'POST',
                 mode: 'no-cors',
-
                 data: bodyFormData,
                 //withCredentials: true,
                 credentials: 'same-origin',
@@ -57,10 +55,10 @@ const UploadImage = () => {
     return (
         <form onSubmit={handleSubmit}>
             <main>
-
-                <input type="file" onChange={handleFileSelect} accept=".jpg,.jpeg" />
-                <input type="submit" value="Upload File" />
+                <input id='files' type="file" onChange={handleFileSelect} accept=".jpg,.jpeg,.png" />
+                <input type="submit" />
             </main>
+
             <style jsx>{`
         main{
             width:500px;
@@ -70,6 +68,10 @@ const UploadImage = () => {
             display:flex;
             flex-direction:column;
         }
+       #files{
+        color:red;
+        width:300px;
+       }
         
         `}
 

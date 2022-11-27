@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Axios from "axios";
 import { useGlobalContext } from '../components/Context';
 import UploadImage from '../components/UploadImage';
+import MainTexts from '../components/MainTexts';
 
 export const getStaticProps = async () => {
   try {
@@ -28,7 +29,10 @@ export default function Home({ data }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <MainTexts />
       {user && <UploadImage />}
+
 
     </>
   )
