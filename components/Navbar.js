@@ -19,7 +19,13 @@ const Navbar = () => {
                 <div className='left-flex'>
                     <Link href="/">
                         <a>
-                            <Image src="/mercik-logo.png" width={200} height={200} objectFit="contain" />
+                            <Image
+                                src="/mercik-logo.png"
+                                width={200}
+                                height={200}
+                                objectFit="contain"
+                                draggable="false"
+                            />
                         </a>
                     </Link>
                 </div>

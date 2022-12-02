@@ -1,16 +1,14 @@
 import { useState } from 'react';
-import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
-import { FiUpload } from 'react-icons/fi';
 import React, { useCallback, useRef } from "react";
-import ReactCanvasConfetti from "react-canvas-confetti";
-
+import { FaCamera } from 'react-icons/fa';
 const UploadImage = () => {
 
 
 
     // a local state to store the currently selected file.
     const [selectedFile, setSelectedFile] = useState(null);
+    const [responseData, setResponseData] = useState();
 
 
     const handleSubmit = async (event) => {
@@ -31,8 +29,8 @@ const UploadImage = () => {
                 //withCredentials: true,
                 credentials: 'same-origin',
             }).then(response => {
-                console.log(response.data.data.join())
-                alert(response.data.data.join())
+                setResponseData(response.data.data)
+                // console.log(response.data.data.join())
             }).catch(error => {
                 console.log(error)
                 alert("errorr")
@@ -48,31 +46,107 @@ const UploadImage = () => {
     }
 
     const handleFileSelect = (event) => {
-        setSelectedFile(event.target.files[0])
+        setSelectedFile(event?.target?.files[0])
+        let imageName = document.getElementById("imageName")
+        let inputImage = event?.target?.files[0];
+        imageName.innerText = inputImage.name;
     }
 
 
     return (
         <form onSubmit={handleSubmit}>
             <main>
-                <input id='files' type="file" onChange={handleFileSelect} accept=".jpg,.jpeg,.png" />
-                <input type="submit" />
+                <label for="inputTag" className='select-img'>
+                    Fotoğraf Yükle
+                    <FaCamera size={60} />
+                    <input id="inputTag" type="file" onChange={handleFileSelect} accept=".jpg,.jpeg,.png" />
+                    <span id="imageName"></span>
+                </label>
+                <button type="submit">Analiz Et</button>
             </main>
+            <div className='response'>
+                <h1>{responseData && "Mermer Özellikleri"}</h1>
+                <ol>
+                    {responseData && responseData.map((item) => {
+                        let x = null;
+                        let y = null;
+                        // x'in içinde datalar var.
+                        x = item.split("=")
+                        // y'nin içinde rakamsal değerler var.
+                        y = x[1].replace("%", "");
+
+                        return (
+                            <li>
+                                {x[0]} = %{y.substring(0, 5)}
+                            </li>
+                        )
+
+                    })}
+                </ol>
+            </div>
+
 
             <style jsx>{`
         main{
             width:500px;
             margin:auto;
-            margin-top:30px;
-            background-color:#f1f5f9;
+            height:fit-content;
             display:flex;
             flex-direction:column;
+            align-items:center;
+            margin:30px auto;
         }
-       #files{
-        color:red;
-        width:300px;
-       }
+        button{
+            height:35px;
+            background-color:#3b82f6;
+            font-weight:900;
+            font-size:1.3rem;
+            color:#fff;
+            cursor:pointer;
+            width:130px;
+            border-radius:5px;
+            border:none;
+            transition:all 0.3s;
+            margin:10px 0;
+        }
+        button:hover{
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+            
+        input{
+            display: none;
+          }
+          label{
+            cursor: pointer;
+        }
         
+       .response{
+       display:flex;
+       align-items:center;
+       justify-content:center;
+       flex-direction:column;
+       margin-top:1rem;
+       }
+       ol li{
+        padding:0.6rem 0;
+        font-weight:700;
+       }
+       
+        .select-img{
+            font-weight:800;
+            font-size:1.3rem;
+            margin:auto;
+            font-size:2rem;
+            align-text=center;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-direction:column;
+
+        }
+       
+     
+
         `}
 
             </style>
