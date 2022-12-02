@@ -1,0 +1,17 @@
+version: '3' 
+services:
+  flask_api:
+    container_name: flask_api
+    image: python:3.10
+    build:
+      context: context
+    ports: 
+      - "3080:3080"
+      - "5000:5000"
+    volumes:
+      - "./:/tmp"
+    networks:
+      - net
+    tty: true
+networks:
+  net:
