@@ -56,7 +56,7 @@ const UploadImage = () => {
     return (
         <form onSubmit={handleSubmit}>
             <main>
-                <label for="inputTag" className='select-img'>
+                <label htmlFor="inputTag" className='select-img'>
                     Fotoğraf Yükle
                     <FaCamera size={60} />
                     <input id="inputTag" type="file" onChange={handleFileSelect} accept=".jpg,.jpeg,.png" />
@@ -67,7 +67,7 @@ const UploadImage = () => {
             <div className='response'>
                 <h1>{responseData && "Mermer Özellikleri"}</h1>
                 <ol>
-                    {responseData && responseData.map((item) => {
+                    {responseData && responseData.map((item, index) => {
                         let x = null;
                         let y = null;
                         // x'in içinde datalar var.
@@ -76,7 +76,7 @@ const UploadImage = () => {
                         y = x[1].replace("%", "");
 
                         return (
-                            <li>
+                            <li key={index}>
                                 {x[0]} = %{y.substring(0, 5)}
                             </li>
                         )
