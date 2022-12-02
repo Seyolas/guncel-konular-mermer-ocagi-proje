@@ -121,6 +121,6 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Back-end uygulamamızı digitalocean'da yayına aldık ancak aylık 50$ ücreti olduğunu öğrenince işlemi geri çektik.(İlk ay ücretsiz özelliğini kullandık ve https protokol dönüşümü yapmamız gerektiğini burada fark ettik.)
 - Docker öğrenmeye devam ettik. Projede aktif olarak kullandık.
 - Back-end uygulamamızı ücretsiz host edebileceğimiz platformları araştırma kararı aldık.
-- Logomuzu tasarladık front end tarafını iyileştirdik.
+- Logomuzu tasarladık front end tarafını iyileştirdik. --> https://guncel.vercel.app/
 
 
