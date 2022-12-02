@@ -109,11 +109,11 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | Abdurrahman Pülat | - |  |
 | hasan demir | - |  |
 | ali imran atabey | -| |
-| batuhan şen | Google Cloud vs Firebase free hosting karşılaştırılması [SPIKE][5SP] | 13sp |
-| abdullah yıldız | - | 13sp |
+| batuhan şen | Google Cloud vs Firebase free hosting karşılaştırılması [SPIKE][5SP] | 5sp |
+| abdullah yıldız | - |  |
 | salihcan özdemir | - |  |
-| Aslan Koyuncu | - | 13sp |
-| Abdullah Samet bayraktar | Vercel vs AWS hosting karşılaştırılması [SPIKE] [5SP] | 13sp |
+| Aslan Koyuncu | - |  |
+| Abdullah Samet bayraktar | Vercel vs AWS hosting karşılaştırılması [SPIKE] [5SP] | 5sp |
 
 ### Sprint 4 çıktıları : 
 - Modeli geliştirmeye devam ettik. Renk,çatlak,damarlı ve iyi özelliklerine göre sınıflandırma işlemlerini tamamladık.
