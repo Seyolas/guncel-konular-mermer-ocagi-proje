@@ -97,3 +97,30 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Flask framework'ünü öğrendik 
 - Flask tarafında image'i karşılayacak api'mizi yazdık. 
 - Flask uygulamasını nigx ile configure ettik --> --> http://137.184.189.251/api
+
+## Sprint - 4
+
+| Assigned to  | User Story  | Toplam SP |
+| :-----: | :---: | :---: |
+| seydi sarıtaş   | http to https protokol dönüşümü yapılmalı.Ssl sertifikası eklenecek [SPIKE][5SP] | 5sp |
+| bünyamin kiremit | - |  |
+| mehmetcan tozlu | çatlak mermer model sınıflandırması [13sp], iyi düzeyde mermer model sınıflandırması [13sp] | 26sp |
+| ömer faruk konca | - |  |
+| Abdurrahman Pülat | - |  |
+| hasan demir | - |  |
+| ali imran atabey | -| |
+| batuhan şen | Google Cloud vs Firebase free hosting karşılaştırılması [SPIKE][5SP] | 5sp |
+| abdullah yıldız | - |  |
+| salihcan özdemir | - |  |
+| Aslan Koyuncu | - |  |
+| Abdullah Samet bayraktar | Vercel vs AWS hosting karşılaştırılması [SPIKE] [5SP] | 5sp |
+
+### Sprint 4 çıktıları : 
+- Modeli geliştirmeye devam ettik. Renk,çatlak,damarlı ve iyi özelliklerine göre sınıflandırma işlemlerini tamamladık.
+- Sonraki sprint noktali ve açık_orta işlemlerini tamamlamayı planladık.
+- Back-end uygulamamızı digitalocean'da yayına aldık ancak aylık 50$ ücreti olduğunu öğrenince işlemi geri çektik.(İlk ay ücretsiz özelliğini kullandık ve https protokol dönüşümü yapmamız gerektiğini burada fark ettik.)
+- Docker öğrenmeye devam ettik. Projede aktif olarak kullandık.
+- Back-end uygulamamızı ücretsiz host edebileceğimiz platformları araştırma kararı aldık.
+- Logomuzu tasarladık front end tarafını iyileştirdik. --> https://guncel.vercel.app/
+
+
