@@ -88,7 +88,7 @@ const UploadImage = () => {
 
             <style jsx>{`
         main{
-            width:500px;
+            width:auto;
             margin:auto;
             height:fit-content;
             display:flex;
