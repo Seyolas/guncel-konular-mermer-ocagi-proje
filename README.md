@@ -122,6 +122,5 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Docker öğrenmeye devam ettik. Projede aktif olarak kullandık.
 - Back-end uygulamamızı ücretsiz host edebileceğimiz platformları araştırma kararı aldık.
 - Logomuzu tasarladık front end tarafını iyileştirdik. --> https://guncel.vercel.app/
-- Back-end uygulamamızı ücretsiz host edebileceğimiz platformları araştırdık.
 - Güvenlik açıkları için araştırma yapmaya karar verdik. Netsparker taraması yapacağız.
 
