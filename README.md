@@ -87,7 +87,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | ali imran atabey | -| |
 | batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
 | abdullah yıldız | Selenium Test Otomasyonu yazılarak Web sayfası test edildi | 13sp |
-| salihcan özdemir | - |  |
+| salihcan özdemir | Logo oluşturma [8sp] | 8sp  |
 | Aslan Koyuncu | DigitalOgean docker kurulumu [13sp] | 13sp |
 | Abdullah Samet bayraktar | Flask-Web api yazılması [13Sp] | 13sp |
 
@@ -110,9 +110,9 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | Google Cloud vs Firebase free hosting karşılaştırılması [SPIKE][5SP] | 5sp |
-| abdullah yıldız | - |  |
-| salihcan özdemir | - |  |
-| Aslan Koyuncu | - |  |
+| abdullah yıldız | Web sitesinin manuel testi yapılarak geliştirici takımla iletişime geçildi | 13sp |
+| salihcan özdemir | Proje'de kullanılan front end frameworklerin öğrenilmesi[13sp] | 13sp  |
+| Aslan Koyuncu | Güvenlik açıklarının araştırılması(Pentest, netsparker taraması) [13sp] | 13sp  |
 | Abdullah Samet bayraktar | Vercel vs AWS hosting karşılaştırılması [SPIKE] [5SP] | 5sp |
 
 ### Sprint 4 çıktıları : 
@@ -122,5 +122,6 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Docker öğrenmeye devam ettik. Projede aktif olarak kullandık.
 - Back-end uygulamamızı ücretsiz host edebileceğimiz platformları araştırma kararı aldık.
 - Logomuzu tasarladık front end tarafını iyileştirdik. --> https://guncel.vercel.app/
-
+- Back-end uygulamamızı ücretsiz host edebileceğimiz platformları araştırdık.
+- Güvenlik açıkları için araştırma yapmaya karar verdik. Netsparker taraması yapacağız.
 
