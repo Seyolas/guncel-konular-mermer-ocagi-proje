@@ -53,7 +53,7 @@ Herkesin iyi olduğu alanları belirledik ve herkese ona göre iş dağılımı 
 | bünyamin kiremit | - |  |
 | mehmetcan tozlu | sınıflandırma modellerinin oluştulması[13sp] | 13sp |
 | ömer faruk konca | renk sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
-| Abdurrahman Pülat | - | |
+| Abdurrahman Pülat | manuel test aracı testrial araştırması yapıldı [SPIKE] [5SP]| 5sp |
 | hasan demir | damar sınıflandırma modellerinin oluşturulması [13sp] | 13sp |
 | ali imran atabey | -|  |
 | batuhan şen | MVC / Auth Kurulumu [13Sp] | 13sp |
@@ -82,7 +82,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | bünyamin kiremit | - |  |
 | mehmetcan tozlu | svm ile modelin tekrar yazılması [13sp] | 13sp |
 | ömer faruk konca | - |  |
-| Abdurrahman Pülat | - |  |
+| Abdurrahman Pülat | testrial kurulumu yapılacak ve test senaryosu yazılacak[13sp] | 13sp  |
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
@@ -106,7 +106,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | bünyamin kiremit | - |  |
 | mehmetcan tozlu | çatlak mermer model sınıflandırması [13sp], iyi düzeyde mermer model sınıflandırması [13sp] | 26sp |
 | ömer faruk konca | - |  |
-| Abdurrahman Pülat | - |  |
+| Abdurrahman Pülat | manuel test yapılacak [5sp] | 5sp |
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | Google Cloud vs Firebase free hosting karşılaştırılması [SPIKE][5SP] | 5sp |
