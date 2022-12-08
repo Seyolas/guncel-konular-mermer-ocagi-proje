@@ -16,7 +16,7 @@ const UploadImage = () => {
 
         try {
             const req = new XMLHttpRequest()
-            var generate_url = "http://localhost:5000/api/process_v2";
+            var generate_url = "https://mermer-ocagi.ml/api/process_v2";
 
 
             var bodyFormData = new FormData();
