@@ -124,3 +124,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Logomuzu tasarladık front end tarafını iyileştirdik. --> https://guncel.vercel.app/
 - Güvenlik açıkları için araştırma yapmaya karar verdik. Netsparker taraması yapacağız.
 
+## Sprint - 5
+
+
+
