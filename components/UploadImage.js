@@ -16,13 +16,13 @@ const UploadImage = () => {
 
         try {
             const req = new XMLHttpRequest()
-            var generate_url = "https://mermer-ocagi.ml/api/process_v2";
+            var generate_url = "http://localhost:5000/api/process_v2";
 
 
             var bodyFormData = new FormData();
             bodyFormData.append("file", selectedFile);
 
-            axios(generate_url, {
+            axios("http://45.32.35.241:5000/api/process_v2", {
                 method: 'POST',
                 mode: 'no-cors',
                 data: bodyFormData,

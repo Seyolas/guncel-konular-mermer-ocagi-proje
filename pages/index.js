@@ -4,18 +4,7 @@ import { useGlobalContext } from '../components/Context';
 import UploadImage from '../components/UploadImage';
 import MainTexts from '../components/MainTexts';
 
-export const getStaticProps = async () => {
-  try {
-    const res = await Axios.get("https://fakestoreapi.com/products");
-    return {
-      props: { data: res.data }
-    }
 
-  } catch (error) {
-    return error
-  }
-
-}
 
 export default function Home({ data }) {
   const { user, error, isLoading } = useGlobalContext();
