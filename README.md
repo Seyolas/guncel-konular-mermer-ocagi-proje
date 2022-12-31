@@ -137,7 +137,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | AWS Spike[5SP] | 5sp |
-| abdullah yıldız | Performans testleri gerçekleştirilerek kullanıcı sayısı ve hız olarak, yeterli olduğu tespit edilmiştir. [13sp] | 13sp |
+| abdullah yıldız | Performans testleri gerçekleştirilerek kullanıcı sayısı ve hız olarak, yeterli olduğu tespit edilmiştir [13sp] | 13sp |
 | salihcan özdemir |- | |
 | Aslan Koyuncu | |  |
 | Abdullah Samet bayraktar | Object storage'deki fotoğrafların vps üzerinden otomatik olarak silinmesini gerçekleştirmek [SPIKE] [5SP] | 5sp |
