@@ -86,7 +86,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
-| abdullah yıldız | Selenium Test Otomasyonu yazılarak Web sayfası test edildi | 13sp |
+| abdullah yıldız | Selenium Test Otomasyonu yazılarak Login sayfası test edildi | 13sp |
 | salihcan özdemir | Logo oluşturma [8sp] | 8sp  |
 | Aslan Koyuncu | DigitalOgean docker kurulumu [13sp] | 13sp |
 | Abdullah Samet bayraktar | Flask-Web api yazılması [13Sp] | 13sp |
@@ -97,6 +97,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Flask framework'ünü öğrendik 
 - Flask tarafında image'i karşılayacak api'mizi yazdık. 
 - Flask uygulamasını nigx ile configure ettik --> --> http://137.184.189.251/api
+- Login sayfasının test otomasyon süreçlerini tamamladık.
 
 ## Sprint - 4
 
@@ -110,7 +111,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | Google Cloud vs Firebase free hosting karşılaştırılması [SPIKE][5SP] | 5sp |
-| abdullah yıldız | Web sitesinin manuel testi yapılarak geliştirici takımla iletişime geçildi | 13sp |
+| abdullah yıldız | Manuel testler yapılacak. | 13sp |
 | salihcan özdemir | Proje'de kullanılan front end frameworklerin öğrenilmesi[13sp] | 13sp  |
 | Aslan Koyuncu | Güvenlik açıklarının araştırılması(Pentest, netsparker taraması) [13sp] | 13sp  |
 | Abdullah Samet bayraktar | Vercel vs AWS hosting karşılaştırılması [SPIKE] [5SP] | 5sp |
@@ -123,8 +124,45 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Back-end uygulamamızı ücretsiz host edebileceğimiz platformları araştırma kararı aldık.
 - Logomuzu tasarladık front end tarafını iyileştirdik. --> https://guncel.vercel.app/
 - Güvenlik açıkları için araştırma yapmaya karar verdik. Netsparker taraması yapacağız.
+- Manuel test süreçlerini ilerlettik.
 
 ## Sprint - 5
+| Assigned to  | User Story  | Toplam SP |
+| :-----: | :---: | :---: |
+| seydi sarıtaş   | Kullanıcı deneyimini arttırmak için spinner eklenecek. İstek atıldıktan response dönene kadar kullanıcının tekrar istek atmasını engellenecek.[13sp] |13sp |
+| bünyamin kiremit | - |  |
+| mehmetcan tozlu | modelin başarısını daha yüksek yapmanın yolları araştırılacak[SPIKE] yapılabiliyorsa development yapılacak | 5sp |
+| ömer faruk konca | - |  |
+| Abdurrahman Pülat |- |  |
+| hasan demir | - |  |
+| ali imran atabey | -| |
+| batuhan şen | AWS Spike[5SP] | 5sp |
+| abdullah yıldız | - |  |
+| salihcan özdemir |- | |
+| Aslan Koyuncu | |  |
+| Abdullah Samet bayraktar | Object storage'deki fotoğrafların vps üzerinden otomatik olarak silinmesini gerçekleştirmek [SPIKE] [5SP] | 5sp |
+
+### Sprint 5 çıktıları : 
+- Uygulamamızı AWS üzerinde host ettik. Ancak 1 hafta sonra hiçbir değişiklik yapmadığımız halde çalışan uygulamamız 500 response vermeye başladı. Sorunu çözmek için:
+   - Mevcut Instances'i reboot ettik
+   - AWS Security groups geliştirmelerini düzenledik, daha sonra kaldırdık.
+   - Ip adreslerini kontrol ettik ancak sorunu çözemedik.
+   - Front End tarafında eklediğimiz security-header geliştirmesini geri çektik
+  ***Grubumuzda AWS engineer bulunmadığından dolayı AWS uygulamamızı iptal ettik.
+  
+- https://www.vultr.com/ sistemine geçiş yaptık. Minio(Resimleri tuttuğumuz cloud stogare) ve backend uygulamızı buraya taşıdık. Sadece 5$'lık verify ücreti ödedik. Deployment sırasında birçok sorunla karşılaştık fakat bunları çözdük. Karşılaştığımız sorunlar:
+   - Localde yüklediğimiz python kütüphanelerinin development ortamda yüklenmemiş olması
+   - Object storage uygulamamızın production ortamda bulunmamasından dolayı sadece localde çalışması. Minio uygulamasıında aynı şekilde server tarafına taşınması gerekliliği sorunlarını çözüp deployment sürecini tamamladık.
+
+- Uygulamamızın çalışabilmesi(daha doğrusu api response'una erişebilmek için sitemizde insecure-http seçeneğinin allow yapılması gerektiğini fark ettik. Çünkü backend api'miz https değil http protokülü üzerinden çalışıyordu.) için http to https protokolünü tekrardan yapmamız gerektiğini fark ettik. Vps(Virtual Priviate Server) sistemi üzerinden SSL sertifikasını projeye entegre etme süreçlerini ilerlettik. 
+- Kullanıcı deneyimini arttırmak için sitemize spinner ekleyip, kullanıcının gönderdiği request sonuçlanmadan tekrar istek atmasının önüne geçtik.
+- İleride böyle bir istek gelirse diye yüklenilen fotoğrafları otomatik olarak silmemizi sağlayacak araştırma maddesini tamamladık. Bunun yapılabilirliğini gördük.
+- Verisetini çoğaltıp modelin başarısını %60'dan %85'e yükselttik.
+- AWS tarafını iptal ettikten sonra Front End tarafında eklediğimiz security-header geliştirmelerini tekrardan ekledik. Bahsi geçen security-header'lar ve neye yaradıkları : 
+   - X-Strict-Transport-Security: Sitedeki tüm http adreslerini otomatik olarak https'e upgrade etmemizi sağlıyor. Uygulamanızda SSL sertifikası bulunsa bile browserlar default olarak tüm istekleri http üzerinden gerçekleştirir. Bu bilgiye sahip olan kötü niyetli birisi (the man in the middle attack) burayı suistimal edebilir. Bunun önüne geçmek için eklediğimiz bir header.
+   - X-Content-Type-Options : Bir sunucunun X-Content-Type-Options HTTP yanıt başlığını nosniff olarak ayarlamak, tarayıcılara, örtük bir içerik türü kullanarak verileri tahmin etmek ve işlemek için yanıt Content-Type başlıklarını geçersiz kılmak için kullanılan içerik veya MIME koklamayı devre dışı bırakma talimatı verir. Bu bazı senaryolarda kullanışlı olsa da, bazı saldırılara da yol açabilir. 
+Sunucunuzu X-Content-Type-Options HTTP yanıt başlığını nosniff olarak döndürecek şekilde yapılandırmak, MIME koklamayı destekleyen tarayıcılara sunucu tarafından sağlanan Content-Type'ı kullanmaları ve içeriği farklı bir içerik türü olarak yorumlamamaları talimatını verecektir.
+
 
 
 
