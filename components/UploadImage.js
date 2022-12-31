@@ -69,7 +69,7 @@ const UploadImage = () => {
                 {waitMessage &&
                     <FaSpinner className='spinner' />
                 }
-                {errorMessage && <p>Üzgünüz Mermer fotoğrafığını işleyemedik...</p>}
+                {errorMessage && <p>Üzgünüz Mermer fotoğrafını işleyemedik...</p>}
 
             </main>
             <div className='response'>
