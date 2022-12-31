@@ -129,7 +129,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | :-----: | :---: | :---: |
 | seydi sarıtaş   | Kullanıcı deneyimini arttırmak için spinner eklenecek. İstek atıldıktan response dönene kadar kullanıcının tekrar istek atmasını engellenecek.[13sp] |13sp |
 | bünyamin kiremit | - |  |
-| mehmetcan tozlu | modelin başarısını daha yüksek yapmanın yolları araştırılacak[SPIKE] | 5sp |
+| mehmetcan tozlu | modelin başarısını daha yüksek yapmanın yolları araştırılacak[SPIKE] yapılabiliyorsa development yapılacak | 5sp |
 | ömer faruk konca | - |  |
 | Abdurrahman Pülat |- |  |
 | hasan demir | - |  |
@@ -155,6 +155,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Uygulamamızın çalışabilmesi(daha doğrusu api response'una erişebilmek için sitemizde insecure-http seçeneğinin allow yapılması gerektiğini fark ettik. Çünkü backend api'miz https değil http protokülü üzerinden çalışıyordu.) için http to https protokolünü tekrardan yapmamız gerektiğini fark ettik. Vps(Virtual Priviate Server) sistemi üzerinden SSL sertifikasını projeye entegre etme süreçlerini ilerlettik. 
 - Kullanıcı deneyimini arttırmak için sitemize spinner ekleyip, kullanıcının gönderdiği request sonuçlanmadan tekrar istek atmasının önüne geçtik.
 - İleride böyle bir istek gelirse diye yüklenilen fotoğrafları otomatik olarak silmemizi sağlayacak araştırma maddesini tamamladık. Bunun yapılabilirliğini gördük.
+- Verisetini çoğaltıp modelin başarısını %60'dan %85'e yükselttik.
 - AWS tarafını iptal ettikten sonra Front End tarafında eklediğimiz security-header geliştirmelerini tekrardan ekledik. Bahsi geçen security-header'lar ve neye yaradıkları : 
    - X-Strict-Transport-Security: Sitedeki tüm http adreslerini otomatik olarak https'e upgrade etmemizi sağlıyor. Uygulamanızda SSL sertifikası bulunsa bile browserlar default olarak tüm istekleri http üzerinden gerçekleştirir. Bu bilgiye sahip olan kötü niyetli birisi (the man in the middle attack) burayı suistimal edebilir. Bunun önüne geçmek için eklediğimiz bir header.
    - X-Content-Type-Options : Bir sunucunun X-Content-Type-Options HTTP yanıt başlığını nosniff olarak ayarlamak, tarayıcılara, örtük bir içerik türü kullanarak verileri tahmin etmek ve işlemek için yanıt Content-Type başlıklarını geçersiz kılmak için kullanılan içerik veya MIME koklamayı devre dışı bırakma talimatı verir. Bu bazı senaryolarda kullanışlı olsa da, bazı saldırılara da yol açabilir. 
