@@ -11,6 +11,7 @@ const UploadImage = () => {
     const [selectedFile, setSelectedFile] = useState(null);
     const [responseData, setResponseData] = useState();
     const [waitMessage, setWaitMessage] = useState(false);
+    const [errorMessage, setErrorMessage] = useState(false);
 
 
 
@@ -38,13 +39,11 @@ const UploadImage = () => {
                 // console.log(response.data.data.join())
             }).catch(error => {
                 setWaitMessage(false)
+                setErrorMessage(true)
             });
 
-
-
         } catch (error) {
-            console.log(error)
-            alert("errorr")
+            setErrorMessage(true)
         }
 
     }
@@ -66,10 +65,12 @@ const UploadImage = () => {
                     <input id="inputTag" type="file" onChange={handleFileSelect} accept=".jpg,.jpeg,.png" />
                     <span id="imageName"></span>
                 </label>
-                <button type="submit">Analiz Et</button>
+                <button disabled={waitMessage} className={waitMessage && "disabled-btn"} type="submit">Analiz Et</button>
                 {waitMessage &&
                     <FaSpinner className='spinner' />
                 }
+                {errorMessage && <p>Üzgünüz Mermer fotoğrafığını işleyemedik...</p>}
+
             </main>
             <div className='response'>
                 <h1>{responseData && "Mermer Özellikleri"}</h1>
@@ -116,6 +117,9 @@ const UploadImage = () => {
             border:none;
             transition:all 0.3s;
             margin:10px 0;
+        }
+        .disabled-btn{
+            background-color:#d1d5db
         }
         button:hover{
             box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
