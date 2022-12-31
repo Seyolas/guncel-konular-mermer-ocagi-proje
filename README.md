@@ -141,7 +141,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | Abdullah Samet bayraktar | Object storage'deki fotoğrafların vps üzerinden otomatik olarak silinmesini gerçekleştirmek [SPIKE] [5SP] | 5sp |
 
 ### Sprint 5 çıktıları : 
-- Uygulamamızı AWS üzerinde host ettik. Ancak 1 hafta sonra hiçbir değişiklik yapmadığımız halde çalışan uygulamamız 500 response vermeye başladı. 
+- Uygulamamızı AWS üzerinde host ettik. Ancak 1 hafta sonra hiçbir değişiklik yapmadığımız halde çalışan uygulamamız 500 response vermeye başladı. Sorunu çözmek için:
 - Mevcut Instances'i reboot ettik. 
 - AWS Security groups geliştirmelerini düzenledik, daha sonra kaldırdık. 
 - Ip adreslerini kontrol ettik ancak sorunu çözemedik. 
