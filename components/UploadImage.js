@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import axios from 'axios';
 import React, { useCallback, useRef } from "react";
-import { FaCamera } from 'react-icons/fa';
+import { FaCamera, FaSpinner } from 'react-icons/fa';
+
 const UploadImage = () => {
 
 
@@ -9,10 +10,13 @@ const UploadImage = () => {
     // a local state to store the currently selected file.
     const [selectedFile, setSelectedFile] = useState(null);
     const [responseData, setResponseData] = useState();
+    const [waitMessage, setWaitMessage] = useState(false);
+
 
 
     const handleSubmit = async (event) => {
         event.preventDefault()
+        setWaitMessage(true)
 
         try {
             const req = new XMLHttpRequest()
@@ -30,10 +34,10 @@ const UploadImage = () => {
                 credentials: 'same-origin',
             }).then(response => {
                 setResponseData(response.data.data)
+                setWaitMessage(false)
                 // console.log(response.data.data.join())
             }).catch(error => {
-                console.log(error)
-                alert("errorr")
+                setWaitMessage(false)
             });
 
 
@@ -63,10 +67,14 @@ const UploadImage = () => {
                     <span id="imageName"></span>
                 </label>
                 <button type="submit">Analiz Et</button>
+                {waitMessage &&
+                    <FaSpinner className='spinner' />
+                }
             </main>
             <div className='response'>
                 <h1>{responseData && "Mermer Özellikleri"}</h1>
                 <ol>
+
                     {responseData && responseData.map((item, index) => {
                         let x = null;
                         let y = null;
