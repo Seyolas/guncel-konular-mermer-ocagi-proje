@@ -135,9 +135,9 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | AWS Spike[5SP] | 5sp |
-| abdullah yıldız | - | 13sp |
-| salihcan özdemir |- | 13sp  |
-| Aslan Koyuncu | | 13sp  |
+| abdullah yıldız | - |  |
+| salihcan özdemir |- | |
+| Aslan Koyuncu | |  |
 | Abdullah Samet bayraktar | Object storage'deki fotoğrafların vps üzerinden otomatik olarak silinmesini gerçekleştirmek [SPIKE] [5SP] | 5sp |
 
 ### Sprint 5 çıktıları : 
