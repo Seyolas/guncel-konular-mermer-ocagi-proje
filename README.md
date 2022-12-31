@@ -137,7 +137,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | batuhan şen | AWS Spike[5SP] | 5sp |
 | abdullah yıldız | - | 13sp |
 | salihcan özdemir |- | 13sp  |
-| Aslan Koyuncu | Güvenlik açıklarının araştırılması(Pentest, netsparker taraması) [13sp] | 13sp  |
+| Aslan Koyuncu | | 13sp  |
 | Abdullah Samet bayraktar | Object storage'deki fotoğrafların vps üzerinden otomatik olarak silinmesini gerçekleştirmek [SPIKE] [5SP] | 5sp |
 
 ### Sprint 5 çıktıları : 
