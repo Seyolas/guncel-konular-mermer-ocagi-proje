@@ -86,7 +86,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | Flask Öğrenme /araştırma POC [13Sp] | 13sp |
-| abdullah yıldız | Selenium Test Otomasyonu yazılarak Login sayfası test edildi | 13sp |
+| abdullah yıldız | Selenium Test Otomasyonu yazılarak Web sayfası test edildi | 13sp |
 | salihcan özdemir | Logo oluşturma [8sp] | 8sp  |
 | Aslan Koyuncu | DigitalOgean docker kurulumu [13sp] | 13sp |
 | Abdullah Samet bayraktar | Flask-Web api yazılması [13Sp] | 13sp |
@@ -97,7 +97,6 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Flask framework'ünü öğrendik 
 - Flask tarafında image'i karşılayacak api'mizi yazdık. 
 - Flask uygulamasını nigx ile configure ettik --> --> http://137.184.189.251/api
-- Login sayfasının test otomasyon süreçlerini tamamladık.
 
 ## Sprint - 4
 
@@ -111,7 +110,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | Google Cloud vs Firebase free hosting karşılaştırılması [SPIKE][5SP] | 5sp |
-| abdullah yıldız | Manuel testler yapılacak. | 13sp |
+| abdullah yıldız | Web sitesinin manuel testi yapılarak geliştirici takımla iletişime geçildi | 13sp |
 | salihcan özdemir | Proje'de kullanılan front end frameworklerin öğrenilmesi[13sp] | 13sp  |
 | Aslan Koyuncu | Güvenlik açıklarının araştırılması(Pentest, netsparker taraması) [13sp] | 13sp  |
 | Abdullah Samet bayraktar | Vercel vs AWS hosting karşılaştırılması [SPIKE] [5SP] | 5sp |
@@ -124,7 +123,6 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 - Back-end uygulamamızı ücretsiz host edebileceğimiz platformları araştırma kararı aldık.
 - Logomuzu tasarladık front end tarafını iyileştirdik. --> https://guncel.vercel.app/
 - Güvenlik açıkları için araştırma yapmaya karar verdik. Netsparker taraması yapacağız.
-- Manuel test süreçlerini ilerlettik.
 
 ## Sprint - 5
 | Assigned to  | User Story  | Toplam SP |
@@ -137,7 +135,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | AWS Spike[5SP] | 5sp |
-| abdullah yıldız | - |  |
+| abdullah yıldız | Performans testleri gerçekleştirilerek kullanıcı sayısı ve hız olarak, yeterli olduğu tespit edilmiştir. [13sp] | 13sp |
 | salihcan özdemir |- | |
 | Aslan Koyuncu | |  |
 | Abdullah Samet bayraktar | Object storage'deki fotoğrafların vps üzerinden otomatik olarak silinmesini gerçekleştirmek [SPIKE] [5SP] | 5sp |
