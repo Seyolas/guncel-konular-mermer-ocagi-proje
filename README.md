@@ -131,13 +131,13 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | :-----: | :---: | :---: |
 | seydi sarıtaş   | Kullanıcı deneyimini arttırmak için spinner eklenecek. İstek atıldıktan response dönene kadar kullanıcının tekrar istek atmasını engellenecek.[13sp] |13sp |
 | bünyamin kiremit | - |  |
-| mehmetcan tozlu | modelin başarısını daha yüksek yapmanın yolları araştırılacak[SPIKE] yapılabiliyorsa development yapılacak | 5sp |
-| ömer faruk konca | - |  |
+| mehmetcan tozlu | modelin başarısını daha yüksek yapmanın yolları araştırılacak[SPIKE] Cnn ile sınıflandırma modeli oluşturma | 5sp |
+| ömer faruk konca |  verilerin artıralarak test başarımını yükseltme |  |
 | Abdurrahman Pülat |- |  |
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | AWS Spike[5SP] | 5sp |
-| abdullah yıldız | - |  |
+| abdullah yıldız | Performans testleri gerçekleştirilerek kullanıcı sayısı ve hız olarak, yeterli olduğu tespit edilmiştir [13sp] | 13sp |
 | salihcan özdemir |- | |
 | Aslan Koyuncu | |  |
 | Abdullah Samet bayraktar | Object storage'deki fotoğrafların vps üzerinden otomatik olarak silinmesini gerçekleştirmek [SPIKE] [5SP] | 5sp |
