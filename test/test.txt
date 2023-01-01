@@ -1,2 +1,0 @@
-This will be our test folder which contains test.txt file
-Our test file will be under this folder
