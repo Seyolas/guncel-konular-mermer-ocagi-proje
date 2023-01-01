@@ -137,7 +137,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
 | hasan demir | - |  |
 | ali imran atabey | -| |
 | batuhan şen | AWS Spike[5SP] | 5sp |
-| abdullah yıldız | Performans testleri gerçekleştirilerek kullanıcı sayısı ve hız olarak, yeterli olduğu tespit edilmiştir [13sp] | 13sp |
+| abdullah yıldız | Performans testleri [13sp] | 13sp |
 | salihcan özdemir |- | |
 | Aslan Koyuncu | |  |
 | Abdullah Samet bayraktar | Object storage'deki fotoğrafların vps üzerinden otomatik olarak silinmesini gerçekleştirmek [SPIKE] [5SP] | 5sp |
@@ -162,6 +162,7 @@ Sprint 1 sonucunda fark ettik ki işleri herkesin bildiği teknolojilere göre d
    - X-Strict-Transport-Security: Sitedeki tüm http adreslerini otomatik olarak https'e upgrade etmemizi sağlıyor. Uygulamanızda SSL sertifikası bulunsa bile browserlar default olarak tüm istekleri http üzerinden gerçekleştirir. Bu bilgiye sahip olan kötü niyetli birisi (the man in the middle attack) burayı suistimal edebilir. Bunun önüne geçmek için eklediğimiz bir header.
    - X-Content-Type-Options : Bir sunucunun X-Content-Type-Options HTTP yanıt başlığını nosniff olarak ayarlamak, tarayıcılara, örtük bir içerik türü kullanarak verileri tahmin etmek ve işlemek için yanıt Content-Type başlıklarını geçersiz kılmak için kullanılan içerik veya MIME koklamayı devre dışı bırakma talimatı verir. Bu bazı senaryolarda kullanışlı olsa da, bazı saldırılara da yol açabilir. 
 Sunucunuzu X-Content-Type-Options HTTP yanıt başlığını nosniff olarak döndürecek şekilde yapılandırmak, MIME koklamayı destekleyen tarayıcılara sunucu tarafından sağlanan Content-Type'ı kullanmaları ve içeriği farklı bir içerik türü olarak yorumlamamaları talimatını verecektir.
+- Performans testleri gerçekleştirilerek kullanıcı sayısı ve hız olarak, yeterli olduğu tespit edilmiştir
 
 
 
