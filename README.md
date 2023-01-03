@@ -35,7 +35,7 @@
 | ömer faruk konca | renk sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 5sp |
 | Abdurrahman Pülat | manuel, alfa,beta testi için kullanılacak araçların araştırılması[SPIKE][5sp] | 5sp |
 | hasan demir | damar sınıflandırma modellerinin araştırılması[SPIKE][5sp] | 5sp |
-| ali imran atabey | veri seti düzenleme[SPIKE][5SP] | 5sp |
+| ali imran atabey | - | 5sp |
 | batuhan şen | MVC / Auth [POC][13Sp] | 13sp |
 | abdullah yıldız | kullanılacak test otomasyonu için araştırma[SPIKE][5sp] | 5sp |
 | salihcan özdemir | 1.Kullanılacak Teknojilerin Araştırılması[SPIKE][5sp], 2. Vue.js vs Svelte.js[POC][13sp] | 18sp
